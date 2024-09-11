@@ -1,2 +1,2 @@
 # MarcoSmilesUnity
-GitHub repo to store Unity-related source files for MarcoSmiles
+All details [here](https://github.com/musimathicslab/MarcoSmilesVR?tab=readme-ov-file#reinforcement-learning)
