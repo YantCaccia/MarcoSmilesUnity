@@ -81,7 +81,15 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 30
+  note: 0
+  PlayModeOn: 0
+  green: {fileID: 0}
+  red: {fileID: 0}
+  orange: {fileID: 0}
+  dArray: []
   DatasetLoader: {fileID: 0}
+  cube: {fileID: 0}
+  text: {fileID: 0}
 --- !u!114 &5665989336146655136
 MonoBehaviour:
   m_ObjectHideFlags: 0

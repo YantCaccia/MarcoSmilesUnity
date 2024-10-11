@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1792,6 +1791,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HandPositionSaver: {fileID: 322674326}
   doRecorder: 0
+  number_of_instances: 500
+  sampling_time: 0
+  RecordMoreInstance: 0
 --- !u!1001 &509582836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1963,7 +1965,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54997e85f6a201a409b6c08b702a1ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  actualPose: {fileID: 0}
+  PlayModeOn: 0
+  charged: 0
   distanceArray: []
+  labelArray: 
+  actualFeatures: []
   note: 0
 --- !u!1 &561238508
 GameObject:

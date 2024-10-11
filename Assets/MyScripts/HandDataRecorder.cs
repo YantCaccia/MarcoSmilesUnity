@@ -1,11 +1,11 @@
-using Microsoft.Unity.VisualStudio.Editor;
+// using Microsoft.Unity.VisualStudio.Editor;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.InputSystem.Switch;
+// using UnityEngine.InputSystem.Switch;
 using UnityEngine.XR.Hands;
 
 
@@ -398,7 +398,7 @@ public class HandDataRecorder : MonoBehaviour
         //  Controlla se il file nel path esiste
         if (File.Exists(GeneratePath(filename)))
         {
-            //  Se il file è presente nel path, crea una stringa contenente tutte le features e id della nota, per salvare sul file nel path
+            //  Se il file ï¿½ presente nel path, crea una stringa contenente tutte le features e id della nota, per salvare sul file nel path
 
 
             Debug.Log("ITd == " +left.ITd);
@@ -488,7 +488,7 @@ public class HandDataRecorder : MonoBehaviour
     }
 
     /// <summary>
-    /// Genera il path per il file da utilizzare. il path è formato da: path (La cartella in appdata dell'aplicazione); 
+    /// Genera il path per il file da utilizzare. il path ï¿½ formato da: path (La cartella in appdata dell'aplicazione); 
     /// folderName (Cartella dei datasets) e filename (nome del file)
     /// </summary>
     /// <param name="filename">Nome del file</param>
@@ -500,7 +500,7 @@ public class HandDataRecorder : MonoBehaviour
 
     /// <summary>
     /// Genera il path per il file da utilizzare da una cartella specifica.
-    /// il path è formato da: path (La cartella in appdata dell'aplicazione); folderName (Cartella dei datasets);
+    /// il path ï¿½ formato da: path (La cartella in appdata dell'aplicazione); folderName (Cartella dei datasets);
     /// folder (Cartella passato come parametro, all'interno della quale si vuole effettuare la ricerca) e filename (nome del file)
     /// 
     /// </summary>
@@ -513,7 +513,7 @@ public class HandDataRecorder : MonoBehaviour
     }
 
     /// <summary>
-    /// Prende il path per il datasaet. Versione public di generatepath. [(è davvero necessaria???? o basta mettere generate path a public?)]
+    /// Prende il path per il datasaet. Versione public di generatepath. [(ï¿½ davvero necessaria???? o basta mettere generate path a public?)]
     /// </summary>
     /// <returns>Ritorna il path per il dataset</returns>
     public static string GeneratePath()
@@ -537,7 +537,7 @@ public class HandDataRecorder : MonoBehaviour
         // Percorso del file (puoi modificarlo secondo le tue esigenze)
         string filepath = GeneratePath(filename);
 
-        // Controlla se il file esiste già
+        // Controlla se il file esiste giï¿½
         if (!File.Exists(filepath))
         {
             // Crea il file se non esiste
@@ -546,7 +546,7 @@ public class HandDataRecorder : MonoBehaviour
         }
         else
         {
-            // Se il file esiste già, aggiungi il testo al file
+            // Se il file esiste giï¿½, aggiungi il testo al file
             File.AppendAllText(filepath, texttosave);
             
         }
